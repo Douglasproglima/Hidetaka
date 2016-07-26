@@ -6,11 +6,417 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Hidetaka</title>
 
-        
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600">        
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+		<link rel="stylesheet" href="assets/css/form-elements.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/media-queries.css">
+
+        <!-- Icones -->
+        <link rel="shortcut icon" href="assets/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/144X144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/114X114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/72X72.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/57X57.png">
     </head>
 
     <body>
+        <!-- Loader -->
+    	<div class="loader">
+    		<div class="loader-img"></div>
+    	</div>
+
+		<!-- Menu Superior -->
+		<nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!-- Itens de Menu -->
+				<div class="collapse navbar-collapse" id="top-navbar-1">
+					<ul class="nav navbar-nav">
+						<li><a class="scroll-link" href="#top-content">Home</a></li>
+						<li><a class="scroll-link" href="#portfolio">Hidetaka</a></li>
+						<li><a class="scroll-link" href="#services">Serviços</a></li>
+						<li><a class="scroll-link" href="#testimonials">Tecnologias</a></li>
+						<li><a class="scroll-link" href="#footer">Contato</a></li>
+					</ul>
+					<div class="navbar-text navbar-right">
+					</div>
+				</div>
+			</div>
+		</nav>
+
+        <!-- Container Logo e Eslogam -->
+        <div class="top-content">
+            <div class="inner-bg">
+                <div class="container">               	
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2 text">							
+                            <div class="description wow fadeInLeftBig">
+                            	<img src="assets/img/logo_hidetaka3.png" alt="" data-at2x="assets/img/logo_hidetaka3.png">
+								<br/><br/>
+								<h3>
+									Tenha um sistema de acordo com suas necessidades.
+								</h3>
+								<h1>
+	                            	Nós podemos guiá-lo a conseguir este objetivo!
+                            	</h1>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+
+		<!-- Quem Somos -->
+        <div class="portfolio-container section-container">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 portfolio section-description wow fadeIn">
+	                    <h2>Quem Somos</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                    <p>A empresa surgiu quando os sócios fundadores perceberam uma demanda de serviços de tecnlogias para pequenas e médias empresas que inciaram a informatização de seus negócios!</p>
+	                </div>
+	            </div>
+	            <div class="row">
+                	<div class="col-sm-4 portfolio-box wow fadeInUp">
+	                	<div class="portfolio-box-image">
+	                		<img src="assets/img/portfolio/1.jpg" alt="" data-at2x="assets/img/portfolio/1.jpg">
+	                	</div>
+                		<h3><a href="#">Negócio</a> <i class="fa fa-angle-right"></i></h3>
+                		<p>Fornecer soluções em tecnlogias e sistemas de informação.</p>
+                    </div>
+                    <div class="col-sm-4 portfolio-box wow fadeInDown">
+	                	<div class="portfolio-box-image">
+	                		<img src="assets/img/portfolio/2.jpg" alt="" data-at2x="assets/img/portfolio/2.jpg">
+	                	</div>
+                		<h3><a href="#">Missão</a> <i class="fa fa-angle-right"></i></h3>
+                		<p>Oferecer serviços e produtos de qualidade e com as melhores tecnologias através dos conhecimetnos e experiencia de nossos profissionais para colaborar com o crescimentos e evolução de nossos clientes.</p>
+                    </div>
+                    <div class="col-sm-4 portfolio-box wow fadeInUp">
+	                	<div class="portfolio-box-image">
+	                		<img src="assets/img/portfolio/3.jpg" alt="" data-at2x="assets/img/portfolio/3.jpg">
+	                	</div>
+                		<h3><a href="#">Visão</a> <i class="fa fa-angle-right"></i></h3>
+                		<p>Ser uma empresa referência no fornecedimentos de serviços e produtos de soluções de tecnologia.</p>
+                    </div>
+	            </div>
+	            <div class="row">
+	            	<div class="col-sm-12 section-bottom-button wow fadeInUp">
+                        <!--<a class="btn btn-link-1" href="#">Load more</a> -->
+	            	</div>
+	            </div>
+	        </div>
+        </div>
         
+        <!-- Serviços -->
+        <div class="services-container section-container">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 services section-description wow fadeIn">
+	                    <h2>Nossos Serviços</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                </div>
+	            </div>
+				
+				<div class="row">
+                	<div class="panel panel-default"> <!-- inicio div 01 -->
+						<div class="col-sm-4 services-box wow fadeInUp">
+							<div class="row">
+								<!--<div class="col-sm-4"> -->
+									<div class="services-box-icon">
+										<i class="fa fa-code"></i>
+									</div>
+								<!--</div> -->
+								<!--<div id="idDevSistemas" class="col-sm-8">-->
+								<h4>Desenvolvimento de Sistemas</h4>
+								<a href="#idDevSistemas" class="btn btn-info" data-toggle="collapse">Mais</a>
+								<div id="idDevSistemas" class="collapse">
+									<p>Desenvolvimento e locação de sistemas de acordo com a necessidade da sua Empresa. Trabalhamos com as tecnologias Java SE para desenvolvimento de aplicação desktop e PHP para aplicação web.</p>
+									<p>Nossos sistemas utilizam bancos de dados openSource como MYSQL, Oracle XE e MSSQL Express, assim sua empresa não precisará investir em sistemas de bancos de dados</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-sm-4 services-box wow fadeInDown">
+							<div class="row">
+								<!--<div class="col-sm-4"> -->
+									<div class="services-box-icon">
+										<i class="fa fa-html5"></i>
+									</div>
+								<!--</div> -->
+								<h4>Desenvolvimento de Websites</h4>
+								<a href="#idDevWevSites" class="btn btn-info" data-toggle="collapse">Mais</a>
+								<!--<div id="idDevSistemas" class="col-sm-8">-->
+								<div id="idDevWevSites" class="collapse">
+									<p>Desenvolvimento de website institucional para que sua empresa possa ter uma melhor divulgação entre seus clientes.</p>
+									<p>Demonstrar seus produtos e serviços, a histórico de sua empresa, o compromisso com seus clientes, possibilitar uma forma de contato dos clientes, são exemplos de conteúdo para o seu site que com certeza será um diferencial junto as seus concorrentes.</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-sm-4 services-box wow fadeInUp">
+							<div class="row">
+								<!--<div class="col-sm-4"> -->
+									<div class="services-box-icon">
+										<i class="fa fa-cogs"></i>
+									</div>
+								<!--</div> -->
+								<h4>Integração de Sistemas</h4>
+								<a href="#idIntSistemas" class="btn btn-info" data-toggle="collapse">Mais</a>
+								<!--<div id="idDevSistemas" class="col-sm-8">-->
+								<div id="idIntSistemas" class="collapse">
+									<p>Desenvolvemos processos que possibilitam que os sistemas de sua empresa trocam informações entre si de forma on-line ou off-line.</p>
+								</div>
+							</div>
+						</div>					
+					</div> <!-- Fim div 01 -->
+					
+                	<div> <!-- inicio div 02 -->
+						<div class="col-sm-4 services-box wow fadeInUp">
+							<div class="row">
+								<!--<div class="col-sm-4"> -->
+									<div class="services-box-icon">
+										<i class="fa fa-cloud"></i>
+									</div>
+								<!--</div> -->
+								<h4>Hospedagem Web</h4>
+								<a href="#idHospWeb" class="btn btn-info" data-toggle="collapse">Mais</a>								
+								<!--<div id="idDevSistemas" class="col-sm-8">-->
+								<div id="idHospWeb" class="collapse">
+									<p>Serviço de hospedagem de sites e disponibilização contas de e-mail personalizados da sua organização, com seu_email@seu_dominio.com.br.</p>
+								</div>
+							</div>
+						</div>
+
+						<div><br/><br/><br/><br/></div>
+						<div class="col-sm-4 services-box wow fadeInUp">
+							<div class="row">
+								<!--<div class="col-sm-4"> -->
+									<div class="services-box-icon">
+										<i class="fa fa-database"></i>
+									</div>
+								<!--</div> -->
+								<h4>Migração de Dados</h4>
+								<a href="#idMigSistemas" class="btn btn-info" data-toggle="collapse">Mais</a>
+								<!--<div id="idDevSistemas" class="col-sm-8">-->
+								<div id="idMigSistemas" class="collapse">
+									<p>Executamos a migração dos dados de seus sistemas para que sua Empresa não perca as informações.</p>
+								</div>
+							</div>
+						</div>	
+						<div class="col-sm-4 services-box wow fadeInUp">
+							<!--<div class="row"> -->
+								<!--<div class="col-sm-4"> -->
+									<div class="services-box-icon">
+										<i class="fa fa-line-chart"></i>
+									</div>
+								<!--</div> -->
+								<h4>Consultoria em Sistemas</h4>
+								<a href="#idConSistemas" class="btn btn-info" data-toggle="collapse">Mais</a>
+								<!--<div id="idConSistemas" class="col-sm-8">-->
+								<div id="idConSistemas" class="collapse">
+									<p>Realizamos serviços de consultoria em sistemas, analisando por assim, qual a melhor arquitetura e/ou 
+									   tecnologia a ser utilizada para sua empresa e para cada caso em específico, para maiores 
+									   detalhes entre em contato.</p>
+								</div>
+							<!--</div>-->
+						</div>
+						
+					</div> <!-- Fim div 02 -->
+					
+				</div>
+	        </div>
+        </div>
+       
+        <!-- Tecnologias -->
+        <div class="testimonials-container section-container section-container-image-bg">
+	        <div class="container">
+	            <div class="row">
+	                <h2>Algumas das Tecnologias que Utilizamos</h2>
+					<div class="col-sm-12 testimonials section-description wow fadeIn">
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col-sm-10 col-sm-offset-1 testimonial-list wow fadeInUp">
+	                	<div role="tabpanel">
+	                		<!-- Tab panes -->
+	                		<div class="tab-content">
+	                			<div role="tabpanel" class="tab-pane fade in active" id="tab1">
+	                				<div class="testimonial-image">
+	                					<img src="assets/img/testimonials/java.jpg" alt="" data-at2x="assets/img/testimonials/java.jpg">
+	                				</div>
+	                				<div class="testimonial-text">
+		                                <h3>Java</h3></p>
+	                                </div>
+	                			</div>
+	                			<div role="tabpanel" class="tab-pane fade" id="tab2">
+	                				<div class="testimonial-image">
+	                					<img src="assets/img/testimonials/primeFaces_.jpg" alt="" data-at2x="assets/img/testimonials/primeFaces_.jpg">
+	                				</div>
+	                				<div class="testimonial-text">
+		                                <h3>Primefaces</h3></p>
+	                                </div>
+	                			</div>
+	                			<div role="tabpanel" class="tab-pane fade" id="tab3">
+	                				<div class="testimonial-image">
+	                					<img src="assets/img/testimonials/spring.jpg" alt="" data-at2x="assets/img/testimonials/spring.jpg">
+	                				</div>
+	                				<div class="testimonial-text">
+		                                <h3>Spring</h3></p>
+	                                </div>
+	                			</div>
+	                			<div role="tabpanel" class="tab-pane fade" id="tab4">
+	                				<div class="testimonial-image">
+	                					<img src="assets/img/testimonials/php.jpg" alt="" data-at2x="assets/img/testimonials/php.jpg">
+	                				</div>
+	                				<div class="testimonial-text">
+										<h3>PHP</h3></p>
+	                                </div>
+	                			</div>
+	                			<div role="tabpanel" class="tab-pane fade" id="tab5">
+	                				<div class="testimonial-image">
+	                					<img src="assets/img/testimonials/CSharp.png" alt="" data-at2x="assets/img/testimonials/CSharp.png">
+	                				</div>
+	                				<div class="testimonial-text">
+										<h3>C#</h3></p>
+	                                </div>
+	                			</div>
+	                			<div role="tabpanel" class="tab-pane fade" id="tab6">
+	                				<div class="testimonial-image">
+	                					<img src="assets/img/testimonials/gitHub.jpg" alt="" data-at2x="assets/img/testimonials/gitHub.jpg">
+	                				</div>
+	                				<div class="testimonial-text">
+										<h3>Github</h3></p>
+	                                </div>
+	                			</div>
+	                			<div role="tabpanel" class="tab-pane fade" id="tab7">
+	                				<div class="testimonial-image">
+	                					<img src="assets/img/testimonials/oracle.jpg" alt="" data-at2x="assets/img/testimonials/oracle.jpg">
+	                				</div>
+	                				<div class="testimonial-text">
+		   		                        <h3>Banco de Dados Oracle</h3></p>
+	                                </div>
+	                			</div>
+	                			<div role="tabpanel" class="tab-pane fade" id="tab8">
+	                				<div class="testimonial-image">
+	                					<img src="assets/img/testimonials/SqlServer.jpg" alt="" data-at2x="assets/img/testimonials/SqlServer.jpg">
+	                				</div>
+	                				<div class="testimonial-text">
+		   		                        <h3>Banco de Dados SQL Server</h3></p>
+		                                </p>
+	                                </div>
+	                			</div>
+	                			<div role="tabpanel" class="tab-pane fade" id="tab9">
+	                				<div class="testimonial-image">
+	                					<img src="assets/img/testimonials/mySql_.png" alt="" data-at2x="assets/img/testimonials/mySql_.png">
+	                				</div>
+	                				<div class="testimonial-text">
+		   		                        <h3>Banco de Dados MySQL</h3></p>
+		                                </p>
+	                                </div>
+	                			</div>								
+	                		</div>
+	                		<!-- Tabs de Navegação -->
+	                		<ul class="nav nav-tabs" role="tablist">
+	                			<li role="presentation" class="active">
+	                				<a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab"></a>
+	                			</li>
+	                			<li role="presentation">
+	                				<a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab"></a>
+	                			</li>
+	                			<li role="presentation">
+	                				<a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab"></a>
+	                			</li>
+	                			<li role="presentation">
+	                				<a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab"></a>
+	                			</li>
+	                			<li role="presentation">
+	                				<a href="#tab5" aria-controls="tab5" role="tab" data-toggle="tab"></a>
+	                			</li>
+	                			<li role="presentation">
+	                				<a href="#tab6" aria-controls="tab6" role="tab" data-toggle="tab"></a>
+	                			</li>
+	                			<li role="presentation">
+	                				<a href="#tab7" aria-controls="tab7" role="tab" data-toggle="tab"></a>
+	                			</li>								
+	                			<li role="presentation">
+	                				<a href="#tab8" aria-controls="tab8" role="tab" data-toggle="tab"></a>
+	                			</li>
+								<li role="presentation">
+	                				<a href="#tab9" aria-controls="tab9" role="tab" data-toggle="tab"></a>
+	                			</li>
+	                		</ul>
+	                	</div>
+	                </div>
+	            </div>
+	        </div>
+        </div>
+
+		<!-- Rodapé Contatos -->
+        <footer class="footer-container">
+	        <div class="container">
+	        	<div class="row">
+					<div class="col-sm-12 text-center">	
+						<h3>Contato</h3>
+					</div>
+				
+					<div class="col-sm-12">	
+						<div class="contact-form">
+							<form role="form" action="assets/contact.php" method="post">
+						
+								<div class="col-sm-6 footer-left">
+									<div class="form-group">
+										<label class="sr-only" for="contact-email">Nome</label>
+										<input type="text" name="name" placeholder="Nome..." class="contact-email form-control" id="contact-email" required data-validation-required-message="Informe seu nome.">
+									</div>
+									
+									<div class="form-group">
+										<label class="sr-only" for="contact-email">E-mail</label>
+										<input type="text" name="email" placeholder="E-mail..." class="contact-email form-control" id="contact-email" required data-validation-required-message="Informe seu e-mail.">
+									</div>
+									<div class="form-group">
+										<label class="sr-only" for="contact-subject">Assunto</label>
+										<input type="text" name="subject" placeholder="Assunto..." class="contact-subject form-control" id="contact-subject" required data-validation-required-message="Informe o assunto.">
+									</div>
+								</div>
+								
+								<div class="col-sm-6">			
+									<div class="form-group">
+										<label class="sr-only" for="contact-message">Mensagem</label>
+										<textarea name="message" placeholder="Mensagem..." class="contact-message form-control" id="contact-message" required data-validation-required-message="Informe a mensagem."></textarea>
+									</div>
+								</div>
+                    
+								<div class="col-sm-12 text-center">
+									<button type="submit" class="btn">Enviar Mensagem</button>		
+								</div>
+								
+							</form>
+						</div>
+                </div>
+	        </div>
+	        
+	        <div class="container-fluid">
+	        	<div class="row">
+                	<div class="col-sm-12 footer-bottom">
+                		<a class="scroll-link" href="#top-content"><i class="fa fa-chevron-up"></i></a>
+                	</div>
+                </div>
+	        </div>
+        </footer>		
+		
         <!-- Javascript -->
         <script src="assets/js/jquery-1.11.1.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
