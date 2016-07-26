@@ -2,7 +2,7 @@
 Website empresa Hidetaka Consultoria e Comércio Sistemas Ltda
 
 
-##Tecnologias
+##Tecnologias:
 
 1. [Bootstra] (http://getbootstrap.com/)
 
@@ -13,7 +13,7 @@ Website empresa Hidetaka Consultoria e Comércio Sistemas Ltda
 4. [PHP] (http://php.net/)
 
 
-##Sites de Pesquisar e Artigos
+##Sites de referência para artigos e consultas:
 
 1. [Devmedia] (http://www.devmedia.com.br/)
 
